@@ -28,8 +28,8 @@ for n=1:size(Mask_original_binary_vector,1)
    end
    n=n+1;
 end
-xlswrite(data_address,TYPE,3,'B3');
-[txt, raw] = xlsread(data_address,3, 'G8:G87');                                
+xlswrite(data_address,TYPE,2,'B3');
+[txt, raw] = xlsread(data_address,2, 'G8:G87');                                
 
     for i=1:size(PD1_HG0,1)  
 %     counts          = 0;  
