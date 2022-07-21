@@ -144,17 +144,3 @@ total_Spec(p_prime)= sum(Spec)/counter;
 total_AUC(p_prime) = sum(AUC_total)/counter;
 %%
 Results_acc_sen_spec= [total_AUC;test_score;total_Sens;total_Spec]  
-   
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
